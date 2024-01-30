@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj Digital Avanzado</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karantina:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Relog Digital</h1>
+    <p>Cambia el color según el horario : Mañana, Tarde, Noche</p>
+    <div id="clock"></div>
+    <div id="options">
+        <button onclick="toggleTimeFormat()">Toggle 12/24H</button>
+        <select id="timezone" onchange="changeTimezone(this.value)">
+            <option value="local">Local Time</option>
+            <!-- Agrega más zonas horarias según sea necesario -->
+        </select>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

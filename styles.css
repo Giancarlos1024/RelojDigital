@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+  color: #141414;
+  font-family: 'Times New Roman';
+  background-image: url('reloj.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#clock {
+  font-size: 5em;
+  margin-bottom: 20px;
+  color: rgb(81, 236, 9);
+  font-weight: bold;
+  
+}
+
+#options {
+  display: flex;
+  gap: 10px;
+  
+}
+#timezone{
+  background-color: #080808;
+  color: white;
+  font-family: 'Karantina', system-ui;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px rgb(110, 79, 79);
+}
+button {
+  border: 0px;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #080808;
+  color: white;
+  font-family: 'Karantina', system-ui;
+  font-size: 20px;
+  transition: background-color 0.3s, color 0.5s;
+  box-shadow: 5px 5px 2px rgb(110, 79, 79);
+}
+button:hover{
+  background-color: white;
+  color: rgb(9, 240, 28);
+}
+h1{
+  font-size: 60px;
+  font-style: italic;
+  color: rgb(81, 236, 9);
+  font-family: 'Karantina', system-ui;
+}
+p{
+ font-style: italic;
+ font-weight: bold;
+}
