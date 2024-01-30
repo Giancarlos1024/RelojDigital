@@ -13,8 +13,8 @@ Este proyecto consiste en un reloj digital desarrollado con [Html, Css y JavaScr
 
 
 ## Enlaces
-- [Demo del Contador](https://proyecto-contador-gv.netlify.app/)
-- [Repositorio del Proyecto](https://github.com/Giancarlos1024/ProyectoContador)
+- [Demo del Contador](https://reloj-digital-gv.netlify.app/)
+- [Repositorio del Proyecto](https://github.com/Giancarlos1024/RelojDigital)
 
 ## Contacto
 - Si tienes preguntas o sugerencias, no dudes en contactarme en
